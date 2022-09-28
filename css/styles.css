@@ -40,14 +40,6 @@ video {
   width: 100%;
 }
 
-.hero-image-box {
-  height: 25vh;
-  width: 25%;
-  display: grid;
-  grid-column: 1 / -1;
-  grid-row: 1 / -1;
-}
-
 .hero-image-box::after {
   content: "";
   background-color: rgba(0, 0, 0, 0);
@@ -98,8 +90,9 @@ video {
 .portfolio-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 0.5rem;
+  grid-gap: 1rem;
   grid-auto-rows: 300px;
+  padding: 10%;
 }
 
 .gallery-item {
