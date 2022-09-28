@@ -161,19 +161,19 @@ this creates a box around the title and heading to make them easier to read
 /* Add Media Queries for Large Screens */
 @media (min-width: 300px) {
   .hero-heading {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 50%;
+    line-height: 1.5rem;
   }
   .hero-text {
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 50%;
+    line-height: 1.5rem;
   }
   .hero-text-box {
     padding: 0rem;
   }
   .portfolio-container h1 {
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 50%;
+    line-height: 1.5rem;
   }
   .portfolio-container {
     max-width: 600px;
@@ -181,19 +181,19 @@ this creates a box around the title and heading to make them easier to read
     width: auto;
   }
   .portfolio-container h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 50%;
+    line-height: 1.5rem;
   }
 }
 
 @media (min-width: 920px) {
   .hero-heading {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 50%;
+    line-height: 1.5rem;
   }
   .hero-text {
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 50%;
+    line-height: 1.5rem;
   }
   .portfolio-container {
     max-width: 920px;
