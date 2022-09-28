@@ -59,17 +59,17 @@ video {
   grid-row: 1/-1;
 }
 /* not used because no box behind title/image (no image)
-this creates a box around the title and heading to make them easier to read
-.hero-image-box::after {
-  content: "";
-  background-color: rgba(0, 0, 0, 0);
-  height: 100vh;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-*/
+    this creates a box around the title and heading to make them easier to read
+    .hero-image-box::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0);
+      height: 100vh;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    */
 .hero-image {
   width: 100%;
   height: 100%;
@@ -113,32 +113,20 @@ this creates a box around the title and heading to make them easier to read
   margin: 1rem auto 0 auto;
 }
 /* deleted h1 here in index code
-.portfolio-container h1 {
-  font-size: 2rem;
-  line-height: 2rem;
-}
-*/
+    .portfolio-container h1 {
+      font-size: 2rem;
+      line-height: 2rem;
+    }
+    */
 
 .portfolio-gallery {
-  /*display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 0.5rem;
-  grid-auto-rows: 300px;
-  width: 100%;
-  background-color: black;
-  color: white;
-  overflow: auto;
-  font-size: 1vmax;
-  align-items: center;*/
+  display: flex;
   grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   grid-gap: 4rem;
-  grid-auto-rows: 900px;
-  display: flex;
+  grid-auto-rows: 300px;
   flex-flow: row wrap;
   justify-content: space-around;
   background-color: white;
-  /* flex-direction: column;
-  flex-wrap: wrap; */
 }
 
 .gallery-item {
@@ -151,19 +139,19 @@ this creates a box around the title and heading to make them easier to read
   -ms-text-justify: distribute-all-lines;
   text-justify: distribute-all-lines;
   /*overflow: hidden;
-  display: flex;
-  align-items: center;
-  flex: 1;
-  padding: 1%;
-  margin: auto; */
+      display: flex;
+      align-items: center;
+      flex: 1;
+      padding: 1%;
+      margin: auto; */
   border: 10%;
 }
 
 .gallery-img {
   /* height: 100%;
-  width: 100%;
-  margin: auto;
-  object-fit: cover; */
+      width: 100%;
+      margin: auto;
+      object-fit: cover; */
   vertical-align: top;
   display: inline-block;
   *display: inline;

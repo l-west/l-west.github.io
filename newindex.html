@@ -9,13 +9,96 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="image-grid">
-      <img src="img/Blue Pool Oyster 2.JPG" alt="image of a blue neon oyster" />
-      <img
-        src="img/FACD9213-123D-4BEE-9EEA-4721572D8405.JPG"
-        alt="image of neon"
-        class="gallery-img"
-      />
-    </div>
+    <header class="hero-box">
+      <section class="hero-image-box"></section>
+      <!--- Begin Hero Header -->
+      <section class="hero-text-box">
+        <h2 class="hero-heading">Lila Westreich</h2>
+        <p class="hero-text"></p>
+      </section>
+    </header>
+    <!-- End Hero Header -->
+
+    <!-- Begin Portfolio-->
+    <section class="portfolio-container">
+      <section class="portfolio-gallery">
+        <div class="gallery-item">
+          <a
+            href="img/Blue Pool Oyster 2.JPG"
+            class="glightbox"
+            data-glightbox="title: Blue Pool Oyster;
+          description: soda-lime glass, 2021"
+          >
+            <img
+              src="img/Blue Pool Oyster 2.JPG"
+              alt="image of a blue neon oyster"
+              class="gallery-img"
+            />
+            <span class="stretch"></span>
+          </a>
+          <a
+            href="img/FACD9213-123D-4BEE-9EEA-4721572D8405.JPG"
+            class="glightbox"
+          >
+            <img
+              src="img/FACD9213-123D-4BEE-9EEA-4721572D8405.JPG"
+              alt="image of neon"
+              class="gallery-img"
+            />
+            <span class="stretch"></span>
+          </a>
+          <a href="img/Hama Hama Oyster 2.jpg" class="glightbox">
+            <img
+              src="img/Hama Hama Oyster 2.jpg"
+              alt="image of a blue and purple neon oyster"
+              class="gallery-img"
+            />
+            <span class="stretch"></span>
+          </a>
+          <a href="img/IMG-1841.jpg" class="glightbox">
+            <img
+              src="img/IMG-1841.jpg"
+              alt="image of a neon purple shells"
+              class="gallery-img"
+            />
+            <span class="stretch"></span>
+          </a>
+          <a href="img/Westreich, Seed to Seedling 4.JPG" class="glightbox">
+            <img
+              src="img/Westreich, Seed to Seedling 4.JPG"
+              alt="image of a red neon seedling"
+              class="gallery-img"
+            />
+            <span class="stretch"></span>
+          </a>
+          <a href="img/Westreich, small shell, 3.JPG" class="glightbox">
+            <img
+              src="img/Westreich, small shell, 3.JPG"
+              alt="image of a single purple neon shell"
+              class="gallery-img"
+            />
+            <span class="stretch"></span>
+          </a>
+          <a
+            href="img/Westreich, Tug of War, 5.jpeg"
+            class="glightbox"
+            data-glightbox="title: neon; description: 2022"
+          >
+            <img
+              src="img/Westreich, Tug of War, 5.jpeg"
+              alt="image of blue and red neon sculpture"
+              class="gallery-img"
+            />
+            <span class="stretch"></span>
+          </a>
+        </div>
+      </section>
+    </section>
+    <!-- End Portfolio-->
+
+    <script src="js/glightbox.min.js"></script>
+    <script type="text/javascript">
+      const lightbox = GLightbox({ loop: true });
+    </script>
   </body>
 </html>
