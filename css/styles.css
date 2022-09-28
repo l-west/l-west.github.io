@@ -50,7 +50,7 @@ video {
 
 .hero-image-box::after {
   content: "";
-  background-color: rgba(223, 94, 94, 0.4);
+  background-color: rgba(0, 0, 0, 0);
   height: 100vh;
   width: 100%;
   position: absolute;
@@ -76,7 +76,7 @@ video {
   font-size: 4rem;
   letter-spacing: 0.05rem;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: antiquewhite;
 }
 .hero-text {
