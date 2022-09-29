@@ -111,7 +111,7 @@ video {
 }
 
 .gallery-item {
-  height: 750%;
+  height: 50%;
   width: 100%;
   margin-top: none;
   margin-left: 1%;
@@ -119,9 +119,9 @@ video {
   text-align: justify;
   -ms-text-justify: distribute-all-lines;
   text-justify: distribute-all-lines;
-  padding-right: 2%;
+  padding-right: 1%;
   padding-left: 0%;
-  padding-top: 0%;
+  border: 1%;
   /*overflow: hidden;
       display: flex;
       align-items: center;
