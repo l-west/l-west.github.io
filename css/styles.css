@@ -98,7 +98,7 @@ video {
 .portfolio-gallery {
   display: grid;
   /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr 1fr)); */
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 0.5rem;
   grid-auto-rows: 300px;
 }
@@ -140,7 +140,7 @@ video {
   }
 
   .portfolio-gallery {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
 }
