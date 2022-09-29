@@ -121,9 +121,10 @@ video {
     */
 
 .portfolio-gallery {
-  display: flex;
-  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-  grid-gap: 4rem;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr 1fr)); */
+  grid-template-columns: 1fr;
+  grid-gap: 0.5rem;
   grid-auto-rows: 300px;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -191,6 +192,10 @@ video {
   .portfolio-container h1 {
     font-size: 3rem;
     line-height: 1.5rem;
+  }
+
+  .portfolio-gallery {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
