@@ -58,23 +58,11 @@ video {
   grid-column: 1/-1;
   grid-row: 1/-1;
 }
-/* not used because no box behind title/image (no image)
-    this creates a box around the title and heading to make them easier to read
-    .hero-image-box::after {
-      content: "";
-      background-color: rgba(0, 0, 0, 0);
-      height: 100vh;
-      width: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-    */
+
 .hero-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  overflow: hidden;
+  object-fit: contain;
 }
 
 .hero-text-box {
@@ -98,12 +86,6 @@ video {
   height: 100%;
   scroll-behavior: smooth;
 }
-/* hero-text is not used because no sub heading
-.hero-text {
-  font-size: 1rem;
-  margin-top: 0.5rem;
-  color: black;
-} */
 
 /* Portfolio Gallery Styles */
 .portfolio-container {
@@ -113,22 +95,12 @@ video {
   padding: 0%;
   margin: 1rem auto 0 auto;
 }
-/* deleted h1 here in index code
-    .portfolio-container h1 {
-      font-size: 2rem;
-      line-height: 2rem;
-    }
-    */
 
 .portfolio-gallery {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr 1fr)); */
   grid-template-columns: 1fr;
   grid-gap: 0.5rem;
   grid-auto-rows: 300px;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  background-color: white;
 }
 
 .gallery-item {
@@ -140,24 +112,12 @@ video {
   text-align: justify;
   -ms-text-justify: distribute-all-lines;
   text-justify: distribute-all-lines;
-  /*overflow: hidden;
-      display: flex;
-      align-items: center;
-      flex: 1;
-      padding: 1%;
-      margin: auto; */
   border: 10%;
 }
 
 .gallery-img {
-  /* height: 100%;
-      width: 100%;
-      margin: auto;
-      object-fit: cover; */
-  vertical-align: top;
-  display: inline-block;
-  *display: inline;
-  zoom: 1;
+  height: 100%;
+  object-fit: contain;
 }
 
 .stretch {
