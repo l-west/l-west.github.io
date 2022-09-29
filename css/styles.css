@@ -76,6 +76,7 @@ video {
   object-fit: cover;
   overflow: hidden;
 }
+
 .hero-text-box {
   grid-column: 1 / -1;
   grid-row: 1 / -1;
@@ -97,12 +98,12 @@ video {
   height: 100%;
   scroll-behavior: smooth;
 }
-/* hero-text is not used because no sub heading */
+/* hero-text is not used because no sub heading
 .hero-text {
   font-size: 1rem;
   margin-top: 0.5rem;
   color: black;
-}
+} */
 
 /* Portfolio Gallery Styles */
 .portfolio-container {
