@@ -59,6 +59,12 @@ video {
   grid-row: 1/-1;
 }
 
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .hero-text-box {
   grid-column: 1 / -1;
   grid-row: 1 / -1;
@@ -80,12 +86,6 @@ video {
   height: 100%;
   scroll-behavior: smooth;
 }
-/* hero-text is not used because no sub heading
-.hero-text {
-  font-size: 1rem;
-  margin-top: 0.5rem;
-  color: black;
-} */
 
 /* Portfolio Gallery Styles */
 .portfolio-container {
@@ -103,9 +103,9 @@ video {
     */
 
 .portfolio-gallery {
-  display: flex;
-  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-  grid-gap: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr, 1fr));
+  grid-gap: 0.5rem;
   grid-auto-rows: 300px;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -131,14 +131,8 @@ video {
 }
 
 .gallery-img {
-  /* height: 100%;
-      width: 100%;
-      margin: auto;
-      object-fit: cover; */
-  vertical-align: top;
-  display: inline-block;
-  *display: inline;
-  zoom: 1;
+  height: 100%;
+  object-fit: contain;
 }
 
 .stretch {
@@ -173,6 +167,10 @@ video {
   .portfolio-container h1 {
     font-size: 3rem;
     line-height: 1.5rem;
+  }
+
+  .portfolio-gallery {
+    grid-template: 1fr 1fr 1fr;
   }
 }
 
