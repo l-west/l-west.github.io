@@ -1,13 +1,13 @@
 /* basic styles */
 html {
-  font-size: 80%;
+  font-size: 70%;
   line-height: 1.5rem;
   box-sizing: border-box;
   font-family: Georgia;
   color: black;
   height: 100%;
   scroll-behavior: smooth;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 @media (prefers-reduced-motion) {
