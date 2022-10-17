@@ -16,6 +16,12 @@ html {
   }
 }
 
+@media (prefers-reduced-motion) {
+  html {
+    scroll-behavior: initial;
+  }
+}
+
 body {
   margin: 0 auto;
   padding: 0;
@@ -85,6 +91,33 @@ video {
   font-family: Georgia;
   height: 100%;
   scroll-behavior: smooth;
+}
+.hero-text {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: black;
+}
+
+.hero-button {
+  /* creates the button, the size, the background, and margins*/
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background: none;
+  color: black;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+.hero-button:hover {
+  transform: scale(
+    0.95
+  ); /* creates movement when hovering the mouse over the button*/
+}
+
+.hero-button:active {
+  background: rgba(0, 0, 0, 0.3);
 }
 
 /* Portfolio Gallery Styles */
